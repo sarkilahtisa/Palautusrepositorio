@@ -7,4 +7,7 @@ sequenceDiagram
     activate server
     server-->>browser: 201 created reply
     deactivate server
+
+    Note right of browser: The browser stays on the same page
+    
 ```
