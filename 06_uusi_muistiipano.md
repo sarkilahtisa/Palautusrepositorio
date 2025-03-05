@@ -9,4 +9,5 @@ sequenceDiagram
     deactivate server
 
     browser: stays on the same page
+
 ```mermaid
