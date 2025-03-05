@@ -5,7 +5,7 @@ sequenceDiagram
     
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    server-->>browser: Redirect-pyyntö osoitteeseen https://studies.cs.helsinki.fi/exampleapp/notes
+    server-->>browser: Redirect to address https://studies.cs.helsinki.fi/exampleapp/notes
     deactivate server
 
     Note right of browser: Server redirects to /notes
