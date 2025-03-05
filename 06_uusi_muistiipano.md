@@ -8,4 +8,6 @@ sequenceDiagram
     server-->>browser: 201 created reply
     deactivate server
 
-```mermaid
+    browser: stays on the same page
+
+```
